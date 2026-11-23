@@ -74,3 +74,13 @@ Thumbs.db
 # Project specific
 *.csv
 *.log
+
+# SQLite Database Files & Data Directory
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# Temporary test and screenshot scripts
+take_*.py
+capture_*.py

@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: stock-visualizer
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: STOCK_PORTFOLIO_DB
+        value: data/portfolio.db
+    # Persistent Disk configuration (Supported on Render Starter plan or above):
+    # To enable permanent data persistence across service redeployments:
+    # 1. Upgrade service from 'free' to 'starter' plan.
+    # 2. Uncomment the 'disk' block below and set STOCK_PORTFOLIO_DB to /var/data/portfolio.db.
+    # disk:
+    #   name: portfolio-data
+    #   mountPath: /var/data
+    #   sizeGB: 1

@@ -4,7 +4,10 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35%2B-FF4B4B.svg)](https://streamlit.io/)
 [![Plotly](https://img.shields.io/badge/Plotly-5.22%2B-3F4F75.svg)](https://plotly.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-Persistent%20Ledger-003B57.svg)](https://www.sqlite.org/)
+[![Render](https://img.shields.io/badge/Render-Live%20Demo-46E3B7.svg?logo=render&logoColor=white)](https://stock-visualizer-dewu.onrender.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> 🚀 **Live Demo:** [https://stock-visualizer-dewu.onrender.com](https://stock-visualizer-dewu.onrender.com)
 
 **Stock Visualizer** is a modern, responsive, institutional-grade financial analytics and portfolio management platform. Inspired by tools like TradingView and Koyfin, it combines real-time market data, vectorized technical indicator calculations, standardized GAAP/IFRS financial statements, VADER NLP sentiment scoring, a weighted-average cost-basis SQLite portfolio ledger, and multi-asset comparative benchmarking—all wrapped in a sleek **Dual-Theme Design System** (Light Mode default, Dark Mode alternative).
 
@@ -179,6 +182,8 @@ Open your browser to `http://localhost:8501`.
 ## 🚀 Render Deployment Guide
 
 Stock Visualizer is designed for **native Python deployment** on [Render](https://render.com).
+
+- **Live Demo Application**: [https://stock-visualizer-dewu.onrender.com](https://stock-visualizer-dewu.onrender.com)
 
 ### Deployment Settings (Web Service)
 - **Environment**: `Python 3`
